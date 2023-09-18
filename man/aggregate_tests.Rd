@@ -7,22 +7,23 @@
 aggregate_tests(data, by = "Created Date")
 }
 \arguments{
-\item{data}{A [data.frame()] or [tibble()].}
+\item{data}{A \code{\link[=data.frame]{data.frame()}} or \code{\link[=tibble]{tibble()}}.}
 
-\item{by}{A string matching one of the column names of `data`; the default is  `"Created Date"`.}
+\item{by}{A string matching one of the column names of \code{data}; the default is  \code{"Created Date"}.}
 }
 \value{
-an object of the same type as `data`, with the following columns added:
+an object of the same type as \code{data}, with the following columns added:
+\itemize{
+\item \verb{n tests}
+\item \verb{n with results}
+\item \verb{n positive}
+\item \verb{\% positive}
+\item \code{period}
+}
 
-* `n tests`
-* `n with results`
-* `n positive`
-* `% positive`
-* `period`
-
-The output will be arranged in ascending order of the variable identified by the `by` argument; that is, it will be arranged in chronological order of `Created Date`, by default.
+The output will be arranged in ascending order of the variable identified by the \code{by} argument; that is, it will be arranged in chronological order of \verb{Created Date}, by default.
 }
 \description{
-Counts test results by a grouping variable (`Created Date`, by default) and
+Counts test results by a grouping variable (\verb{Created Date}, by default) and
 adds some useful columns
 }
