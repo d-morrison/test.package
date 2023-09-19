@@ -15,3 +15,6 @@ the string \code{"goodbye"}
 \description{
 More information about this function.
 }
+\examples{
+function_with_backticked_arg_names()
+}
