@@ -1,0 +1,10 @@
+pandoc: 2.19.2
+pkgdown: 2.0.7
+pkgdown_sha: ~
+articles:
+  test123: test123.html
+last_built: 2023-10-10T20:59Z
+urls:
+  reference: https://d-morrison.github.io/test.package/reference
+  article: https://d-morrison.github.io/test.package/articles
+
