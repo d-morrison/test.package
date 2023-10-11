@@ -1,6 +1,8 @@
 ---
 title: "test123"
-output: rmarkdown::html_vignette
+output: 
+  rmarkdown::html_vignette: default
+  pdf_document: default
 vignette: >
   %\VignetteIndexEntry{test123}
   %\VignetteEngine{knitr::rmarkdown}
