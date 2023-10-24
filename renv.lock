@@ -872,9 +872,14 @@
     },
     "remotes": {
       "Package": "remotes",
-      "Version": "2.4.2.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
+      "Version": "2.4.2.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "remotes",
+      "RemoteUsername": "r-lib",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "88751711e328e24ef9284109b545b5e2668f4bb1",
       "Requirements": [
         "R",
         "methods",
@@ -882,7 +887,7 @@
         "tools",
         "utils"
       ],
-      "Hash": "63d15047eb239f95160112bcadc4fcb9"
+      "Hash": "08015d3392b46b881f8a499da68a9742"
     },
     "renv": {
       "Package": "renv",
@@ -935,10 +940,9 @@
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteRepo": "roxygen2",
       "RemoteUsername": "r-lib",
-      "RemotePkgRef": "r-lib/roxygen2",
-      "RemoteRef": "HEAD",
+      "RemoteRepo": "roxygen2",
+      "RemoteRef": "main",
       "RemoteSha": "a34bdf7c7b952068b1f7742b7b34d1eac78e54da",
       "Requirements": [
         "R",
@@ -959,7 +963,7 @@
         "withr",
         "xml2"
       ],
-      "Hash": "7faff100bb53a0f9f2867a168a3f5869"
+      "Hash": "d3a746517ed23709420345d8928a3f00"
     },
     "rprojroot": {
       "Package": "rprojroot",
