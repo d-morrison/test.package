@@ -3,6 +3,7 @@
 export(aggregate_tests)
 export(function_with_backticked_arg_names)
 export(hello)
+export(inherit.dot.params)
 importFrom(dplyr,arrange)
 importFrom(dplyr,filter)
 importFrom(dplyr,group_by)
