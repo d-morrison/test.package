@@ -33,4 +33,10 @@
   <url>
     <loc>https://d-morrison.github.io/test.package/reference/index.html</loc>
   </url>
+  <url>
+    <loc>https://d-morrison.github.io/test.package/reference/inherit.dot.params.html</loc>
+  </url>
+  <url>
+    <loc>https://d-morrison.github.io/test.package/reference/inherit_params.html</loc>
+  </url>
 </urlset>
