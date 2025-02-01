@@ -1,11 +1,9 @@
 #' Title
 #'
-#' @param ...
+#' @param ... unused
 #' @inheritDotParams aggregate_tests
-#' @return
+#' @returns NULL
 #' @export
-#'
-#' @examples
 inherit.dot.params = function(...)
 {
 

@@ -1,10 +1,9 @@
 #' Title
 #'
 #' @inheritParams aggregate_tests
-#' @return
+#' @returns NULL
 #' @export
 #'
-#' @examples
 inherit_params = function(
     data,
     by = "Created Date")

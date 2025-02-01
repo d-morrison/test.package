@@ -15,7 +15,7 @@
 
 #' Hello world!
 #'
-#' @return
+#' @returns NULL
 #' @export
 #'
 #' @examples
