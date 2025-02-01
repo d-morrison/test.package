@@ -37,7 +37,7 @@ aggregate_tests = function(
       `n with results` =
         sum(.data$n_tests * (.data$Result %in% c("Negative", "Positive")),
             na.rm = TRUE),
-      `n positive` = sum(.data$n_tests * (Result == "Positive"), na.rm = TRUE)
+      `n positive` = sum(.data$n_tests * (.data$Result == "Positive"), na.rm = TRUE)
     ) |>
     dplyr::mutate(
       `% positive` = .data$`n positive` / .data$`n with results` * 100
