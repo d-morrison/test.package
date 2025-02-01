@@ -6,7 +6,6 @@
 #' @param `arg 2` a string
 #'
 #' @return the string `"goodbye"`
-#' @export
 #'
 #' @examples
 #' function_with_backticked_arg_names()
