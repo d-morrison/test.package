@@ -1,7 +1,7 @@
 ---
-title: "test_quarto"
+title: "test_quarto_vignette"
 vignette: >
-  %\VignetteIndexEntry{test_quarto}
+  %\VignetteIndexEntry{test_quarto_vignette}
   %\VignetteEngine{quarto::html}
   %\VignetteEncoding{UTF-8}
 knitr:
