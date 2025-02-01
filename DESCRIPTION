@@ -17,7 +17,7 @@ Suggests:
     knitr,
     quarto,
     rmarkdown
-VignetteBuilder: knitr, quarto
+VignetteBuilder: quarto
 Imports: 
     dplyr,
     shiny
