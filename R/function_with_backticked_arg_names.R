@@ -6,10 +6,10 @@
 #' @param `arg 2` a string
 #'
 #' @return the string `"goodbye"`
-#' @export
 #'
 #' @examples
 #' function_with_backticked_arg_names()
+#' @dev
 function_with_backticked_arg_names = function(
     `arg 1` = 1,
     `arg 2` = "apple")

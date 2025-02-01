@@ -11,7 +11,8 @@ inherit.dot.params(...)
   Arguments passed on to \code{\link[=aggregate_tests]{aggregate_tests}}
   \describe{
     \item{\code{data}}{A \code{\link[=data.frame]{data.frame()}} or \code{\link[=tibble]{tibble()}}.}
-    \item{\code{by}}{A string matching one of the column names of \code{data}; the default is  \code{"Created Date"}.}
+    \item{\code{by}}{A string matching one of the column names of \code{data};
+the default is  \code{"Created Date"}.}
   }}
 }
 \description{

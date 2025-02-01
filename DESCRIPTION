@@ -6,19 +6,21 @@ Author: Who wrote it
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.2
-Roxygen: list(markdown = TRUE)
+Roxygen: list(markdown = TRUE, roclets = c("collate", "rd", "namespace", "devtag::dev_roclet"))
 URL: https://github.com/d-morrison/test.package, https://d-morrison.github.io/test.package/
 BugReports: https://github.com/d-morrison/test.package/issues
 Suggests: 
     knitr,
     quarto,
-    rmarkdown
+    rmarkdown,
+    shiny
 VignetteBuilder: quarto
 Imports: 
     dplyr,
-    shiny
+    rlang
 Config/Needs/website: rmarkdown, quarto
+Config/Needs/build: moodymudskipper/devtag
