@@ -1,9 +1,6 @@
 # Deploys pkgdown for Pull Requests, tags, and pushes to main branch
 # PRs are deployed to /preview/pr<number>/
 # Tags are deployed to /<tag>/
-# copied from https://github.com/rstudio/education-workflows/blob/main/examples/pkgdown.yaml
-# referred from https://github.com/r-lib/actions/issues/865
-# see also https://github.com/gadenbuie/rsprefs/actions/runs/11894649919/workflow
 on:
   pull_request:
     branches:
@@ -32,23 +29,14 @@ on:
 
 name: pkgdown
 
-permissions: read-all
-
 jobs:
   pkgdown-build:
     runs-on: ubuntu-latest
     if: ${{ !(github.event_name == 'pull_request' && github.event.action == 'closed') }}
-
-    # Only restrict concurrency for non-PR jobs
-    concurrency:
-      group: pkgdown-${{ github.event_name != 'pull_request' || github.run_id }}
-
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-    permissions:
-      contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v2
 
       - name: Configure git
         run: |
@@ -90,12 +78,12 @@ jobs:
           echo "subdir=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
 
       # If event is workflow_dispatch, set subdir to 'inputs.tag'
-      - name: "[dispatch] Set documentation subdirectory"
+      - name: '[dispatch] Set documentation subdirectory'
         if: github.event_name == 'workflow_dispatch'
         run: |
           echo "subdir=${{ github.event.inputs.tag }}" >> $GITHUB_ENV
 
-      - name: "Deploy pkgdown site"
+      - name: Deploy pkgdown site
         id: deploy
         shell: Rscript {0}
         run: |
@@ -109,7 +97,7 @@ jobs:
           deployed_url <- file.path(pkg$meta$url, subdir)
           cat(sprintf('url=%s', deployed_url), file = Sys.getenv("GITHUB_OUTPUT"), append = TRUE)
 
-      - name: "Notify pkgdown deployment"
+      - name: Notify pkgdown deployment
         if: github.event_name == 'pull_request'
         uses: hasura/comment-progress@v2.2.0
         with:
