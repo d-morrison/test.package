@@ -2,3 +2,5 @@ url: https://d-morrison.github.io/test.package/
 template:
   bootstrap: 5
 
+development:
+  mode: auto
