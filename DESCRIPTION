@@ -20,3 +20,4 @@ VignetteBuilder: knitr
 Imports: 
     dplyr,
     shiny
+Config/Needs/website: rmarkdown
