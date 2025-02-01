@@ -15,4 +15,4 @@ knitr:
 library(test.package)
 ```
 
-hi
+hi there
