@@ -8,7 +8,7 @@ articles:
   articles/test-quarto-article: test-quarto-article.html
   articles/test-rmarkdown-article: test-rmarkdown-article.html
   test-rmarkdown-vignette: test-rmarkdown-vignette.html
-last_built: 2025-02-01T23:20Z
+last_built: 2025-02-01T23:29Z
 urls:
   reference: https://d-morrison.github.io/test.package/reference
   article: https://d-morrison.github.io/test.package/articles
