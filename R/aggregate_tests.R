@@ -4,8 +4,10 @@
 #' adds some useful columns
 #'
 #' @param data A [data.frame()] or [tibble()].
-#' @param by A string matching one of the column names of `data`; the default is  `"Created Date"`.
-#' @return an object of the same type as `data`, with the following columns added:
+#' @param by A string matching one of the column names of `data`;
+#' the default is  `"Created Date"`.
+#' @return an object of the same type as `data`,
+#' with the following columns added:
 #'
 #' * `n tests`
 #' * `n with results`
@@ -13,7 +15,10 @@
 #' * `% positive`
 #' * `period`
 #'
-#' The output will be arranged in ascending order of the variable identified by the `by` argument; that is, it will be arranged in chronological order of `Created Date`, by default.
+#' The output will be arranged in ascending order of the variable
+#' identified by the `by` argument;
+#' that is, it will be arranged in chronological order of `Created Date`,
+#' by default.
 #'
 #' @export
 #'
@@ -34,7 +39,7 @@ aggregate_tests = function(
       `n positive` = sum(n_tests * (Result == "Positive"), na.rm = TRUE)
     ) |>
     dplyr::mutate(
-      `% positive` = `n positive` / `n with results` * 100
+      `% positive` = .data$`n positive` / .data$`n with results` * 100
     ) |>
     dplyr::arrange(across(all_of(by))) |>
     dplyr::mutate(
