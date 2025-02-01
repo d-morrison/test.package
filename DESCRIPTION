@@ -20,5 +20,6 @@ Suggests:
 VignetteBuilder: quarto
 Imports: 
     dplyr,
+    rlang,
     shiny
 Config/Needs/website: rmarkdown, quarto

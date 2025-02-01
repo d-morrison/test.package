@@ -33,10 +33,11 @@ aggregate_tests = function(
     dplyr::group_by(across(all_of(by))) |>
     dplyr::summarize(
       .groups = "drop",
-      `n tests` = sum(n_tests, na.rm = TRUE),
+      `n tests` = sum(.data$n_tests, na.rm = TRUE),
       `n with results` =
-        sum(n_tests * (Result %in% c("Negative", "Positive")), na.rm = TRUE),
-      `n positive` = sum(n_tests * (Result == "Positive"), na.rm = TRUE)
+        sum(.data$n_tests * (.data$Result %in% c("Negative", "Positive")),
+            na.rm = TRUE),
+      `n positive` = sum(.data$n_tests * (Result == "Positive"), na.rm = TRUE)
     ) |>
     dplyr::mutate(
       `% positive` = .data$`n positive` / .data$`n with results` * 100
@@ -45,7 +46,7 @@ aggregate_tests = function(
     dplyr::mutate(
       "period" =
         dplyr::if_else(
-          `Created Date` <= "2021-08-15",
+          .data$`Created Date` <= "2021-08-15",
           "baseline",
           "in session"))
 
