@@ -9,7 +9,8 @@ inherit_params(data, by = "Created Date")
 \arguments{
 \item{data}{A \code{\link[=data.frame]{data.frame()}} or \code{\link[=tibble]{tibble()}}.}
 
-\item{by}{A string matching one of the column names of \code{data}; the default is  \code{"Created Date"}.}
+\item{by}{A string matching one of the column names of \code{data};
+the default is  \code{"Created Date"}.}
 }
 \description{
 Title
