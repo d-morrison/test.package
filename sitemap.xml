@@ -1,5 +1,7 @@
 <urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
 <url><loc>https://d-morrison.github.io/test.package/404.html</loc></url>
+<url><loc>https://d-morrison.github.io/test.package/LICENSE-text.html</loc></url>
+<url><loc>https://d-morrison.github.io/test.package/LICENSE.html</loc></url>
 <url><loc>https://d-morrison.github.io/test.package/articles/index.html</loc></url>
 <url><loc>https://d-morrison.github.io/test.package/articles/shiny.html</loc></url>
 <url><loc>https://d-morrison.github.io/test.package/articles/shiny2.html</loc></url>
@@ -15,5 +17,6 @@
 <url><loc>https://d-morrison.github.io/test.package/reference/index.html</loc></url>
 <url><loc>https://d-morrison.github.io/test.package/reference/inherit.dot.params.html</loc></url>
 <url><loc>https://d-morrison.github.io/test.package/reference/inherit_params.html</loc></url>
+<url><loc>https://d-morrison.github.io/test.package/reference/test.package-package.html</loc></url>
 </urlset>
 
