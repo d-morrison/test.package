@@ -1,42 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://d-morrison.github.io/test.package/404.html</loc>
-  </url>
-  <url>
-    <loc>https://d-morrison.github.io/test.package/articles/index.html</loc>
-  </url>
-  <url>
-    <loc>https://d-morrison.github.io/test.package/articles/shiny.html</loc>
-  </url>
-  <url>
-    <loc>https://d-morrison.github.io/test.package/articles/shiny2.html</loc>
-  </url>
-  <url>
-    <loc>https://d-morrison.github.io/test.package/articles/test123.html</loc>
-  </url>
-  <url>
-    <loc>https://d-morrison.github.io/test.package/authors.html</loc>
-  </url>
-  <url>
-    <loc>https://d-morrison.github.io/test.package/index.html</loc>
-  </url>
-  <url>
-    <loc>https://d-morrison.github.io/test.package/reference/aggregate_tests.html</loc>
-  </url>
-  <url>
-    <loc>https://d-morrison.github.io/test.package/reference/function_with_backticked_arg_names.html</loc>
-  </url>
-  <url>
-    <loc>https://d-morrison.github.io/test.package/reference/hello.html</loc>
-  </url>
-  <url>
-    <loc>https://d-morrison.github.io/test.package/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>https://d-morrison.github.io/test.package/reference/inherit.dot.params.html</loc>
-  </url>
-  <url>
-    <loc>https://d-morrison.github.io/test.package/reference/inherit_params.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://d-morrison.github.io/test.package/404.html</loc></url>
+<url><loc>https://d-morrison.github.io/test.package/articles/index.html</loc></url>
+<url><loc>https://d-morrison.github.io/test.package/articles/shiny.html</loc></url>
+<url><loc>https://d-morrison.github.io/test.package/articles/shiny2.html</loc></url>
+<url><loc>https://d-morrison.github.io/test.package/articles/test1.html</loc></url>
+<url><loc>https://d-morrison.github.io/test.package/articles/test123.html</loc></url>
+<url><loc>https://d-morrison.github.io/test.package/articles/test2.html</loc></url>
+<url><loc>https://d-morrison.github.io/test.package/authors.html</loc></url>
+<url><loc>https://d-morrison.github.io/test.package/index.html</loc></url>
+<url><loc>https://d-morrison.github.io/test.package/reference/aggregate_tests.html</loc></url>
+<url><loc>https://d-morrison.github.io/test.package/reference/function_with_backticked_arg_names.html</loc></url>
+<url><loc>https://d-morrison.github.io/test.package/reference/hello.html</loc></url>
+<url><loc>https://d-morrison.github.io/test.package/reference/index.html</loc></url>
+<url><loc>https://d-morrison.github.io/test.package/reference/inherit.dot.params.html</loc></url>
+<url><loc>https://d-morrison.github.io/test.package/reference/inherit_params.html</loc></url>
 </urlset>
+
