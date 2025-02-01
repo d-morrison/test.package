@@ -1,0 +1,16 @@
+---
+title: "test_quarto"
+vignette: >
+  %\VignetteIndexEntry{test_quarto}
+  %\VignetteEngine{quarto::html}
+  %\VignetteEncoding{UTF-8}
+knitr:
+  opts_chunk:
+    collapse: true
+    comment: '#>'
+---
+
+```{r}
+#| label: setup
+library(test.package)
+```
