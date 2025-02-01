@@ -10,3 +10,4 @@
 ^vignettes/articles$
 ^vignettes/\.quarto$
 ^vignettes/*_files$
+^LICENSE\.md$
