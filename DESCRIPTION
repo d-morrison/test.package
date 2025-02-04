@@ -16,8 +16,9 @@ BugReports: https://github.com/d-morrison/test.package/issues
 Suggests: 
     knitr,
     quarto,
-    rmarkdown
-VignetteBuilder: quarto
+    rmarkdown,
+    shiny
+VignetteBuilder: quarto, knitr
 Imports: 
     dplyr,
     rlang
