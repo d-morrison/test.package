@@ -13,7 +13,7 @@ name: pkgdown-windows.yaml
 permissions: read-all
 
 jobs:
-  pkgdown:
+  pkgdown-windows:
     runs-on: windows-latest
     # Only restrict concurrency for non-PR jobs
     concurrency:
