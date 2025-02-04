@@ -8,12 +8,12 @@ on:
     types: [published]
   workflow_dispatch:
 
-name: pkgdown.yaml
+name: pkgdown-ubuntu.yaml
 
 permissions: read-all
 
 jobs:
-  pkgdown:
+  pkgdown-ubuntu:
     runs-on: ubuntu-latest
     # Only restrict concurrency for non-PR jobs
     concurrency:
