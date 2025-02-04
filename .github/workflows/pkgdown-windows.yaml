@@ -13,7 +13,7 @@ name: pkgdown-windows.yaml
 permissions: read-all
 
 jobs:
-  pkgdown:
+  pkgdown-windows:
     runs-on: windows-latest
     # Only restrict concurrency for non-PR jobs
     concurrency:
@@ -33,7 +33,7 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: r-lib/pkgdown, local::.
+          extra-packages: r-lib/pkgdown, local::., , any::quarto
           needs: website
 
       - name: Build site
