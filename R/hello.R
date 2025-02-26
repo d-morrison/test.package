@@ -20,6 +20,6 @@
 #'
 #' @examples
 #' hello()
-hello <- function() {
+goodbye <- hello <- function() {
   print("Hello, world!")
 }
