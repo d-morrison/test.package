@@ -1,12 +1,17 @@
 <urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
 <url><loc>https://d-morrison.github.io/test.package/dev/LICENSE-text.html</loc></url>
 <url><loc>https://d-morrison.github.io/test.package/dev/LICENSE.html</loc></url>
+<url><loc>https://d-morrison.github.io/test.package/dev/articles/articles/test1.html</loc></url>
+<url><loc>https://d-morrison.github.io/test.package/dev/articles/articles/test2.html</loc></url>
 <url><loc>https://d-morrison.github.io/test.package/dev/articles/index.html</loc></url>
 <url><loc>https://d-morrison.github.io/test.package/dev/articles/shiny.html</loc></url>
 <url><loc>https://d-morrison.github.io/test.package/dev/articles/shiny2.html</loc></url>
 <url><loc>https://d-morrison.github.io/test.package/dev/articles/test-quarto-article.html</loc></url>
 <url><loc>https://d-morrison.github.io/test.package/dev/articles/test-rmarkdown-article.html</loc></url>
 <url><loc>https://d-morrison.github.io/test.package/dev/articles/test-rmarkdown-vignette.html</loc></url>
+<url><loc>https://d-morrison.github.io/test.package/dev/articles/test1.html</loc></url>
+<url><loc>https://d-morrison.github.io/test.package/dev/articles/test123.html</loc></url>
+<url><loc>https://d-morrison.github.io/test.package/dev/articles/test2.html</loc></url>
 <url><loc>https://d-morrison.github.io/test.package/dev/articles/test_quarto_vignette.html</loc></url>
 <url><loc>https://d-morrison.github.io/test.package/dev/authors.html</loc></url>
 <url><loc>https://d-morrison.github.io/test.package/dev/index.html</loc></url>
