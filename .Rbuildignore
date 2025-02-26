@@ -12,3 +12,5 @@
 ^vignettes/*_files$
 ^LICENSE\.md$
 ^man/function_with_backticked_arg_names\.Rd$
+^hidden\.qmd$
+^hidden2\.Rmd$
