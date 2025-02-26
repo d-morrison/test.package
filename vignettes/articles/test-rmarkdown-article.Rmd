@@ -1,5 +1,5 @@
 ---
-title: "test1"
+title: "test-rmarkdown-article"
 ---
 
 ```{r, include = FALSE}
