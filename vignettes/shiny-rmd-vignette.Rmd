@@ -1,8 +1,13 @@
 ---
-title: "Shiny.rmd"
+title: "Shiny RMD Vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Shiny RMD Vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
 runtime: shiny
-output: html_document
 ---
+This doesn't work with `vignette('shiny2', package = "test.package")`.
 
 ### Here are two Shiny widgets
 

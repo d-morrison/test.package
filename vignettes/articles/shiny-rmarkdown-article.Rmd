@@ -1,13 +1,8 @@
 ---
-title: "shiny2"
-output: rmarkdown::html_vignette
-vignette: >
-  %\VignetteIndexEntry{shiny2}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
+title: "Shiny rmarkdown article"
 runtime: shiny
+output: html_document
 ---
-This doesn't work with `vignette('shiny2', package = "test.package")`.
 
 ### Here are two Shiny widgets
 
