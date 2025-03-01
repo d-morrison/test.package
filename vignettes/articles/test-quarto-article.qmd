@@ -3,4 +3,7 @@ title: "test-quarto-article"
 format: html
 ---
 
-goodbye for now
+```{r}
+iris <- read_csv("https://osf.io/download/deq3w")
+```
+
