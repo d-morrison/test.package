@@ -1,14 +1,12 @@
 pandoc: 3.1.11
 pkgdown: 2.1.1.9000
-pkgdown_sha: de95b13f1ca3d09bee29f2f2742692bf30a28f8d
+pkgdown_sha: d0616779d5c6e2ad8cc656e195ae21fa9acfe9a6
 articles:
-  shiny: shiny.html
-  shiny2: shiny2.html
   test_quarto_vignette: test_quarto_vignette.html
   articles/test-quarto-article: test-quarto-article.html
   articles/test-rmarkdown-article: test-rmarkdown-article.html
   test-rmarkdown-vignette: test-rmarkdown-vignette.html
-last_built: 2025-02-26T07:46Z
+last_built: 2025-03-01T00:42Z
 urls:
   reference: https://d-morrison.github.io/test.package/reference
   article: https://d-morrison.github.io/test.package/articles
