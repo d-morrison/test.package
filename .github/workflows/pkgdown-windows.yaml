@@ -16,6 +16,8 @@ jobs:
   pkgdown-windows:
     runs-on: windows-latest
     # Only restrict concurrency for non-PR jobs
+    concurrency:
+      group: pkgdown-${{ github.event_name != 'pull_request' || github.run_id }}
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     permissions:
@@ -31,10 +33,10 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: r-lib/pkgdown, local::., , any::quarto
+          extra-packages: r-lib/pkgdown@quarto-libpath, local::., , any::quarto
           needs: website
 
       - name: Build site
-        run: pkgdown::build_site_github_pages(new_process = FALSE, install = FALSE)
+        run: pkgdown::build_site_github_pages(new_process = FALSE)
         shell: Rscript {0}
 
