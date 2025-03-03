@@ -17,19 +17,18 @@ knitr:
 
 # get data from a private page
 
-<https://osf.io/deq3w> contains a copy of `iris`:
+<https://osf.io/deq3w> is a private page containing a copy of `iris`:
 
 ```{r}
-#| eval: false
 library(osfr)
 library(dplyr)
 # 
 iris2 <- osf_retrieve_file("deq3w") |> 
-  osf_download(path = tempdir(), conflicts = "overwrite") |> 
+  osfr::osf_download(path = tempdir(), conflicts = "overwrite") |> 
   pull("local_path") |> 
   read.csv()
 
-iris2
+iris2 |> head()
 ```
 
 get data from Serocalculator:
@@ -38,7 +37,7 @@ get data from Serocalculator:
 
 library(dplyr)
 temp <- osf_retrieve_file("n6cp3") |> 
-  osf_download(path = tempdir(), conflicts = "overwrite") |> 
+  osfr::osf_download(path = tempdir(), conflicts = "overwrite") |> 
   pull("local_path") |> 
   readr::read_rds()
 
@@ -46,5 +45,3 @@ temp
 
 ```
 
-
-hi
