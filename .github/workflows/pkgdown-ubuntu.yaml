@@ -44,6 +44,7 @@ jobs:
       group: pkgdown-${{ github.event_name != 'pull_request' || github.run_id }}
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      OSF_PAT: ${{ secrets.OSF_PAT }}
     steps:
       - uses: actions/checkout@v2
 
@@ -118,7 +119,7 @@ jobs:
           print(pkg)
 
       - name: Deploy pkgdown site
-        id: deploy-pkgdown
+        id: deploy
         shell: Rscript {0}
         run: |
           subdir <- "${{ env.subdir }}"
