@@ -1,6 +1,8 @@
 ---
 title: "test-quarto-article"
-format: html
+format: 
+  html:
+    freeze: auto
 ---
 
 ```{r}
@@ -25,7 +27,15 @@ iris2 <- osf_retrieve_file("deq3w") |>
 iris2 |> head()
 ```
 
-get data from Serocalculator:
+# use local data
+
+```{r}
+library(test.package)
+print(head(local_data))
+```
+
+
+# get data from Serocalculator:
 
 ```{r}
 
