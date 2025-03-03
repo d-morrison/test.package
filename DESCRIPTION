@@ -17,6 +17,7 @@ Suggests:
     knitr,
     osfr,
     quarto,
+    readr,
     rmarkdown,
     shiny
 VignetteBuilder: quarto, knitr, rmarkdown
