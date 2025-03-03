@@ -18,7 +18,7 @@ on:
       - 'pkgdown/**'
       - 'vignettes/**'
       - '_quarto.yml'
-      - '.github/workflows/pkgdown.yaml'
+      - '.github/workflows/pkgdown-ubuntu.yaml'
       - 'Readme.md'
   push:
     tags:
@@ -118,7 +118,7 @@ jobs:
           print(pkg)
 
       - name: Deploy pkgdown site
-        id: deploy-pkgdown
+        id: deploy
         shell: Rscript {0}
         run: |
           subdir <- "${{ env.subdir }}"
