@@ -10,38 +10,5 @@ knitr:
     comment: '#>'
 ---
 
-```{r}
-#| label: setup
-
-```
-
-# get data from a private page
-
-<https://osf.io/deq3w> is a private page containing a copy of `iris`:
-
-```{r}
-library(osfr)
-library(dplyr)
-# 
-iris2 <- osf_retrieve_file("deq3w") |> 
-  osfr::osf_download(path = tempdir(), conflicts = "overwrite") |> 
-  pull("local_path") |> 
-  read.csv()
-
-iris2 |> head()
-```
-
-get data from Serocalculator:
-
-```{r}
-
-library(dplyr)
-temp <- osf_retrieve_file("n6cp3") |> 
-  osfr::osf_download(path = tempdir(), conflicts = "overwrite") |> 
-  pull("local_path") |> 
-  readr::read_rds()
-
-temp
-
-```
+Hello world
 
