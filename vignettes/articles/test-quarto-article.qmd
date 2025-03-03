@@ -4,6 +4,6 @@ format: html
 ---
 
 ```{r}
-iris <- read_csv("https://osf.io/download/deq3w")
+print("hello world")
 ```
 
