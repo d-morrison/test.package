@@ -33,7 +33,7 @@ on:
         required: false
         default: ''
 
-name: pkgdown
+name: pkgdown-ubuntu
 
 jobs:
   pkgdown-build:
