@@ -118,7 +118,7 @@ jobs:
           print(pkg)
 
       - name: Deploy pkgdown site
-        id: deploy-pkgdown
+        id: deploy
         shell: Rscript {0}
         run: |
           subdir <- "${{ env.subdir }}"
