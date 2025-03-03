@@ -1,0 +1,14 @@
+pandoc: 3.1.11
+pkgdown: 2.1.1.9000
+pkgdown_sha: 7cf401f44a970ea13744fcdd883248552c68ff9d
+articles:
+  articles/shiny-rmarkdown-article: shiny-rmarkdown-article.html
+  shiny-rmd-vignette: shiny-rmd-vignette.html
+  test_quarto_vignette: test_quarto_vignette.html
+  articles/test-quarto-article: test-quarto-article.html
+  articles/test-rmarkdown-article: test-rmarkdown-article.html
+  test-rmarkdown-vignette: test-rmarkdown-vignette.html
+last_built: 2025-03-03T21:38Z
+urls:
+  reference: https:/d-morrison.github.io/test.package/preview/pr15/reference
+  article: https:/d-morrison.github.io/test.package/preview/pr15/articles
