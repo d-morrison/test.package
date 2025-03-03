@@ -26,3 +26,5 @@ Imports:
     rlang
 Config/Needs/website: rmarkdown, quarto
 Config/Needs/build: moodymudskipper/devtag
+Depends: 
+    R (>= 3.5)
