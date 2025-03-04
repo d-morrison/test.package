@@ -15,12 +15,16 @@ URL: https://github.com/d-morrison/test.package, https://d-morrison.github.io/te
 BugReports: https://github.com/d-morrison/test.package/issues
 Suggests: 
     knitr,
+    osfr,
     quarto,
+    readr,
     rmarkdown,
     shiny
-VignetteBuilder: quarto, knitr
+VignetteBuilder: quarto, knitr, rmarkdown
 Imports: 
     dplyr,
     rlang
 Config/Needs/website: rmarkdown, quarto
 Config/Needs/build: moodymudskipper/devtag
+Depends: 
+    R (>= 3.5)
