@@ -10,10 +10,5 @@ knitr:
     comment: '#>'
 ---
 
-```{r}
-#| label: setup
-# library(test.package)
-1+1
-```
+Hello world
 
-hi
